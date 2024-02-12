@@ -1,5 +1,4 @@
 import React from "react";
-
 const page = () => {
   return (
     <section className="text-gray-600 body-font relative">
@@ -17,7 +16,10 @@ const page = () => {
           <div className="flex flex-wrap -m-2">
             <div className="p-2 w-1/2">
               <div className="relative">
-                <label for="name" className="leading-7 text-sm text-gray-600">
+                <label
+                  htmlFor="name"
+                  className="leading-7 text-sm text-gray-600"
+                >
                   Name
                 </label>
                 <input
@@ -30,7 +32,10 @@ const page = () => {
             </div>
             <div className="p-2 w-1/2">
               <div className="relative">
-                <label for="email" className="leading-7 text-sm text-gray-600">
+                <label
+                  htmlFor="email"
+                  className="leading-7 text-sm text-gray-600"
+                >
                   Email
                 </label>
                 <input
@@ -44,7 +49,7 @@ const page = () => {
             <div className="p-2 w-full">
               <div className="relative">
                 <label
-                  for="message"
+                  htmlFor="message"
                   className="leading-7 text-sm text-gray-600"
                 >
                   Message
